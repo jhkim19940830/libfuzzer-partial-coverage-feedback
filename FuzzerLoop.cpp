@@ -903,6 +903,7 @@ void Fuzzer::Loop(std::vector<SizedFile> &CorporaFiles) {
 
     // Perform several mutations and runs.
     MutateAndTestOne();
+    printf("Jiho Kim \n");
 
     PurgeAllocator();
   }
